@@ -18,9 +18,12 @@
 			<Item Name="controlspec.ctl" Type="VI" URL="../src/Controls/controlspec.ctl"/>
 			<Item Name="DAQTask.ctl" Type="VI" URL="../Controls/DAQTask.ctl"/>
 			<Item Name="ForceCluster.ctl" Type="VI" URL="../src/Controls/ForceCluster.ctl"/>
+			<Item Name="HW States.ctl" Type="VI" URL="../src/Controls/HW States.ctl"/>
+			<Item Name="HWchannels.ctl" Type="VI" URL="../src/Controls/HWchannels.ctl"/>
 			<Item Name="Inputs.ctl" Type="VI" URL="../src/Controls/Inputs.ctl"/>
 			<Item Name="Outputs.ctl" Type="VI" URL="../src/Controls/Outputs.ctl"/>
 			<Item Name="Serpoint.ctl" Type="VI" URL="../src/Controls/Serpoint.ctl"/>
+			<Item Name="Test Variables.ctl" Type="VI" URL="../src/Controls/Test Variables.ctl"/>
 			<Item Name="TFspec.ctl" Type="VI" URL="../src/Controls/TFspec.ctl"/>
 		</Item>
 		<Item Name="Libraries Used" Type="Folder">
@@ -44,13 +47,32 @@
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
+			<Item Name="Bundle test data.vi" Type="VI" URL="../src/Support VIs/Bundle test data.vi"/>
 			<Item Name="ButtonEnable.vi" Type="VI" URL="../src/Support VIs/ButtonEnable.vi"/>
 			<Item Name="CameraLoop.vi" Type="VI" URL="../src/Support VIs/CameraLoop.vi"/>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Control_DAQ.vi" Type="VI" URL="../src/Support VIs/Control_DAQ.vi"/>
 			<Item Name="controller.vi" Type="VI" URL="../src/Support VIs/controller.vi"/>
 			<Item Name="DAQ_Stop.vi" Type="VI" URL="../src/Support VIs/DAQ_Stop.vi"/>
+			<Item Name="Dequeue Msg.vi" Type="VI" URL="../src/Support VIs/Dequeue Msg.vi"/>
+			<Item Name="Dev Mode Hide.vi" Type="VI" URL="../src/Support VIs/Dev Mode Hide.vi"/>
 			<Item Name="DynamicDataWrite" Type="VI" URL="../src/DynamicDataWrite"/>
+			<Item Name="Enqueue Msg.vi" Type="VI" URL="../src/Support VIs/Enqueue Msg.vi"/>
+			<Item Name="FC Logic.vi" Type="VI" URL="../src/Support VIs/FC Logic.vi"/>
+			<Item Name="Get Camera Data.vi" Type="VI" URL="../src/Support VIs/Get Camera Data.vi"/>
+			<Item Name="Get force data.vi" Type="VI" URL="../src/Support VIs/Get force data.vi"/>
+			<Item Name="Get time.vi" Type="VI" URL="../src/Support VIs/Get time.vi"/>
+			<Item Name="HW Global.vi" Type="VI" URL="../src/Support VIs/HW Global.vi"/>
+			<Item Name="Init HW.vi" Type="VI" URL="../src/Support VIs/Init HW.vi"/>
 			<Item Name="InitializeMain.vi" Type="VI" URL="../src/Support VIs/InitializeMain.vi"/>
+			<Item Name="Name file.vi" Type="VI" URL="../src/Support VIs/Name file.vi"/>
+			<Item Name="QMH release all.vi" Type="VI" URL="../src/Support VIs/QMH release all.vi"/>
+			<Item Name="Results to string.vi" Type="VI" URL="../src/Support VIs/Results to string.vi"/>
+			<Item Name="Servo input.vi" Type="VI" URL="../src/Support VIs/Servo input.vi"/>
+			<Item Name="Setpoint calculation.vi" Type="VI" URL="../src/Support VIs/Setpoint calculation.vi"/>
+			<Item Name="Setpoint Type.vi" Type="VI" URL="../src/Support VIs/Setpoint Type.vi"/>
+			<Item Name="Time calculator.vi" Type="VI" URL="../src/Support VIs/Time calculator.vi"/>
 			<Item Name="TransferFunction.vi" Type="VI" URL="../src/Support VIs/TransferFunction.vi"/>
 		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
@@ -127,7 +149,12 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
 				<Item Name="CD Generic Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/CD Generic Error Handler.vi"/>
+				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
+				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
+				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
@@ -141,6 +168,7 @@
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Acceleration-Accelerometer).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Acceleration-Accelerometer).vi"/>
@@ -345,6 +373,7 @@
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -502,6 +531,7 @@
 				<Item Name="NI_LinSys_String Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/NI_LinSys_String Utilities.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -559,9 +589,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="FC Logic.vi" Type="VI" URL="../src/Support VIs/FC Logic.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
