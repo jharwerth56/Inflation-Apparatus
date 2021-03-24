@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -74,6 +75,7 @@
 			<Item Name="Setpoint Type.vi" Type="VI" URL="../src/Support VIs/Setpoint Type.vi"/>
 			<Item Name="Time calculator.vi" Type="VI" URL="../src/Support VIs/Time calculator.vi"/>
 			<Item Name="TransferFunction.vi" Type="VI" URL="../src/Support VIs/TransferFunction.vi"/>
+			<Item Name="Run Inflation.vi" Type="VI" URL="../src/Support VIs/Run Inflation.vi"/>
 		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
