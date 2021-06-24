@@ -66,6 +66,9 @@
 			<Item Name="Calibrate Array.vi" Type="VI" URL="../src/Support VIs/Calibrate Array.vi"/>
 			<Item Name="Control visibility.vi" Type="VI" URL="../src/Support VIs/Control visibility.vi"/>
 		</Item>
+		<Item Name="Tools" Type="Folder">
+			<Item Name="Servo Tester.vi" Type="VI" URL="../src/Support VIs/Servo Tester.vi"/>
+		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -317,7 +320,7 @@
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
 				<Item Name="IMAQ Rake" Type="VI" URL="/&lt;vilib&gt;/vision/Compatibility.llb/IMAQ Rake"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="IVA Append VI Name to GUID.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Append VI Name to GUID.vi"/>
 				<Item Name="IVA Clear Coordsys Errors.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Clear Coordsys Errors.vi"/>
 				<Item Name="IVA Gauge Algorithm Max.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Gauge Algorithm Max.vi"/>
