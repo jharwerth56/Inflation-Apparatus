@@ -77,9 +77,11 @@
 			<Item Name="Save Version.vi" Type="VI" URL="../src/Build Execution/Save Version.vi"/>
 			<Item Name="Get Version.vi" Type="VI" URL="../src/Build Execution/Get Version.vi"/>
 		</Item>
+		<Item Name="Inflation Test" Type="Folder">
+			<Item Name="Setpoint Functions.ctl" Type="VI" URL="../src/Inflation Test/Controls/Setpoint Functions.ctl"/>
+			<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
+		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
-		<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Results/Inflation Test Numeric Results.ctl"/>
-		<Item Name="Setpoint Functions.ctl" Type="VI" URL="../src/Inflation Test/Controls/Setpoint Functions.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
