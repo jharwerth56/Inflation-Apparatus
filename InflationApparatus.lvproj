@@ -79,6 +79,7 @@
 		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
 		<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Results/Inflation Test Numeric Results.ctl"/>
+		<Item Name="Setpoint Functions.ctl" Type="VI" URL="../src/Inflation Test/Controls/Setpoint Functions.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
