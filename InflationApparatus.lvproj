@@ -81,6 +81,9 @@
 			<Item Name="Setpoint Functions.ctl" Type="VI" URL="../src/Inflation Test/Controls/Setpoint Functions.ctl"/>
 			<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
 		</Item>
+		<Item Name="Hardware" Type="Folder">
+			<Item Name="Hardware Options.ctl" Type="VI" URL="../src/Inflation Test/Controls/Hardware Options.ctl"/>
+		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
