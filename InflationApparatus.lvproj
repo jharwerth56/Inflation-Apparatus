@@ -85,6 +85,11 @@
 			<Item Name="Hardware Options.ctl" Type="VI" URL="../src/Inflation Test/Controls/Hardware Options.ctl"/>
 		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
+		<Item Name="Inflation Camera.vi" Type="VI" URL="../src/GUI/Inflation Camera.vi"/>
+		<Item Name="sinusoidal controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/sinusoidal controls.ctl"/>
+		<Item Name="Ramp Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Ramp Controls.ctl"/>
+		<Item Name="Blood Pressure Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Blood Pressure Controls.ctl"/>
+		<Item Name="Open Loop Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Open Loop Controls.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
