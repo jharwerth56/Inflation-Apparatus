@@ -15,10 +15,12 @@
 			<Item Name="Servo Tester.vi" Type="VI" URL="../src/Support VIs/Servo Tester.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
+			<Item Name="Inflation Camera - Screen Grab.vi" Type="VI" URL="../src/GUI/Inflation Camera - Screen Grab.vi"/>
 			<Item Name="Enforce N Button Switch.vi" Type="VI" URL="../src/GUI/Enforce N Button Switch.vi"/>
 			<Item Name="Force and Diameter Charts.vi" Type="VI" URL="../src/GUI/Force and Diameter Charts.vi"/>
 			<Item Name="Force Calibration Chart.vi" Type="VI" URL="../src/GUI/Force Calibration Chart.vi"/>
 			<Item Name="Inflation Camera.vi" Type="VI" URL="../src/GUI/Inflation Camera.vi"/>
+			<Item Name="Test Equipment - Servo and Force.vi" Type="VI" URL="../src/GUI/Test Equipment - Servo and Force.vi"/>
 		</Item>
 		<Item Name="Build Execution" Type="Folder">
 			<Item Name="Save Version.vi" Type="VI" URL="../src/Build Execution/Save Version.vi"/>
@@ -95,6 +97,7 @@
 			</Item>
 		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
+		<Item Name="Tab Control.ctl" Type="VI" URL="../src/GUI/Tab Control.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
@@ -405,6 +408,7 @@
 				<Item Name="IB_RW_Convert_Path_to_Relative.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Convert_Path_to_Relative.vi"/>
 				<Item Name="IB_2019_2018_RW_Convert_Path_to_Relative.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/Compatibility/IB_2019_2018_RW_Convert_Path_to_Relative.vi"/>
 				<Item Name="IB_Relative_Path_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_Relative_Path_Type.ctl"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
