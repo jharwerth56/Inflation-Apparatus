@@ -15,12 +15,20 @@
 			<Item Name="Servo Tester.vi" Type="VI" URL="../src/Support VIs/Servo Tester.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
-			<Item Name="Inflation Camera - Screen Grab.vi" Type="VI" URL="../src/GUI/Inflation Camera - Screen Grab.vi"/>
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Tab Reference.ctl" Type="VI" URL="../src/GUI/Tab Reference.ctl"/>
+				<Item Name="GUI References.ctl" Type="VI" URL="../src/GUI/GUI References.ctl"/>
+			</Item>
+			<Item Name="Subpanels" Type="Folder">
+				<Item Name="Force Calibration Chart.vi" Type="VI" URL="../src/GUI/Force Calibration Chart.vi"/>
+				<Item Name="Force and Diameter Charts.vi" Type="VI" URL="../src/GUI/Force and Diameter Charts.vi"/>
+				<Item Name="Inflation Camera.vi" Type="VI" URL="../src/GUI/Inflation Camera.vi"/>
+				<Item Name="Test Equipment - Servo and Force.vi" Type="VI" URL="../src/GUI/Test Equipment - Servo and Force.vi"/>
+				<Item Name="Inflation Camera - Screen Grab.vi" Type="VI" URL="../src/GUI/Inflation Camera - Screen Grab.vi"/>
+			</Item>
 			<Item Name="Enforce N Button Switch.vi" Type="VI" URL="../src/GUI/Enforce N Button Switch.vi"/>
-			<Item Name="Force and Diameter Charts.vi" Type="VI" URL="../src/GUI/Force and Diameter Charts.vi"/>
-			<Item Name="Force Calibration Chart.vi" Type="VI" URL="../src/GUI/Force Calibration Chart.vi"/>
-			<Item Name="Inflation Camera.vi" Type="VI" URL="../src/GUI/Inflation Camera.vi"/>
-			<Item Name="Test Equipment - Servo and Force.vi" Type="VI" URL="../src/GUI/Test Equipment - Servo and Force.vi"/>
+			<Item Name="Get Sub Panel.vi" Type="VI" URL="../src/GUI/Get Sub Panel.vi"/>
+			<Item Name="Set Tabs.vi" Type="VI" URL="../src/GUI/Set Tabs.vi"/>
 		</Item>
 		<Item Name="Build Execution" Type="Folder">
 			<Item Name="Save Version.vi" Type="VI" URL="../src/Build Execution/Save Version.vi"/>
@@ -439,7 +447,6 @@
 			<Item Name="CDK_Utility_GetSetStringVersion.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetSetStringVersion.vi"/>
 			<Item Name="CDK_GLOBAL_STRINGS.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_GLOBAL_STRINGS.vi"/>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
-			<Item Name="Tab Control.ctl" Type="VI" URL="../src/GUI/Tab Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Inflation Apparatus" Type="EXE">
