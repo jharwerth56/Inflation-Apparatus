@@ -27,6 +27,7 @@
 				<Item Name="Inflation Camera - Screen Grab.vi" Type="VI" URL="../src/GUI/Inflation Camera - Screen Grab.vi"/>
 			</Item>
 			<Item Name="Enforce N Button Switch.vi" Type="VI" URL="../src/GUI/Enforce N Button Switch.vi"/>
+			<Item Name="Pair Banner Elements.vi" Type="VI" URL="../src/GUI/Pair Banner Elements.vi"/>
 			<Item Name="Get Sub Panel.vi" Type="VI" URL="../src/GUI/Get Sub Panel.vi"/>
 			<Item Name="Set Tabs.vi" Type="VI" URL="../src/GUI/Set Tabs.vi"/>
 		</Item>
