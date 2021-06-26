@@ -11,85 +11,90 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Controls" Type="Folder">
-			<Item Name="HW States.ctl" Type="VI" URL="../src/Controls/HW States.ctl"/>
-			<Item Name="HWchannels.ctl" Type="VI" URL="../src/Controls/HWchannels.ctl"/>
-			<Item Name="Outputs.ctl" Type="VI" URL="../src/Controls/Outputs.ctl"/>
-			<Item Name="Serpoint.ctl" Type="VI" URL="../src/Controls/Serpoint.ctl"/>
-			<Item Name="Test Variables.ctl" Type="VI" URL="../src/Controls/Test Variables.ctl"/>
-			<Item Name="Camera output.ctl" Type="VI" URL="../src/Controls/Camera output.ctl"/>
-			<Item Name="Time data.ctl" Type="VI" URL="../src/Controls/Time data.ctl"/>
-		</Item>
-		<Item Name="Libraries Used" Type="Folder">
-			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
-		</Item>
-		<Item Name="Support VIs" Type="Folder">
-			<Item Name="Bundle test data.vi" Type="VI" URL="../src/Support VIs/Bundle test data.vi"/>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="controller.vi" Type="VI" URL="../src/Support VIs/controller.vi"/>
-			<Item Name="Dequeue Msg.vi" Type="VI" URL="../src/Support VIs/Dequeue Msg.vi"/>
-			<Item Name="Dev Mode Hide.vi" Type="VI" URL="../src/Support VIs/Dev Mode Hide.vi"/>
-			<Item Name="Enqueue Msg.vi" Type="VI" URL="../src/Support VIs/Enqueue Msg.vi"/>
-			<Item Name="FC Logic.vi" Type="VI" URL="../src/Support VIs/FC Logic.vi"/>
-			<Item Name="Get Camera Data.vi" Type="VI" URL="../src/Support VIs/Get Camera Data.vi"/>
-			<Item Name="Get force data.vi" Type="VI" URL="../src/Support VIs/Get force data.vi"/>
-			<Item Name="Get time.vi" Type="VI" URL="../src/Support VIs/Get time.vi"/>
-			<Item Name="HW Global.vi" Type="VI" URL="../src/Support VIs/HW Global.vi"/>
-			<Item Name="Init HW.vi" Type="VI" URL="../src/Support VIs/Init HW.vi"/>
-			<Item Name="InitializeMain.vi" Type="VI" URL="../src/Support VIs/InitializeMain.vi"/>
-			<Item Name="Name file.vi" Type="VI" URL="../src/Support VIs/Name file.vi"/>
-			<Item Name="QMH release all.vi" Type="VI" URL="../src/Support VIs/QMH release all.vi"/>
-			<Item Name="Results to string.vi" Type="VI" URL="../src/Support VIs/Results to string.vi"/>
-			<Item Name="Servo input.vi" Type="VI" URL="../src/Support VIs/Servo input.vi"/>
-			<Item Name="Setpoint calculation.vi" Type="VI" URL="../src/Support VIs/Setpoint calculation.vi"/>
-			<Item Name="Time calculator.vi" Type="VI" URL="../src/Support VIs/Time calculator.vi"/>
-			<Item Name="Run Inflation.vi" Type="VI" URL="../src/Support VIs/Run Inflation.vi"/>
-			<Item Name="Replace Array Element.vi" Type="VI" URL="../src/Support VIs/Replace Array Element.vi"/>
-			<Item Name="Calibrate Array.vi" Type="VI" URL="../src/Support VIs/Calibrate Array.vi"/>
-			<Item Name="Control visibility.vi" Type="VI" URL="../src/Support VIs/Control visibility.vi"/>
-		</Item>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="Servo Tester.vi" Type="VI" URL="../src/Support VIs/Servo Tester.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
 			<Item Name="Enforce N Button Switch.vi" Type="VI" URL="../src/GUI/Enforce N Button Switch.vi"/>
 			<Item Name="Force and Diameter Charts.vi" Type="VI" URL="../src/GUI/Force and Diameter Charts.vi"/>
+			<Item Name="Force Calibration Chart.vi" Type="VI" URL="../src/GUI/Force Calibration Chart.vi"/>
+			<Item Name="Inflation Camera.vi" Type="VI" URL="../src/GUI/Inflation Camera.vi"/>
 		</Item>
 		<Item Name="Build Execution" Type="Folder">
 			<Item Name="Save Version.vi" Type="VI" URL="../src/Build Execution/Save Version.vi"/>
 			<Item Name="Get Version.vi" Type="VI" URL="../src/Build Execution/Get Version.vi"/>
 		</Item>
 		<Item Name="Inflation Test" Type="Folder">
-			<Item Name="Setpoint Functions.ctl" Type="VI" URL="../src/Inflation Test/Controls/Setpoint Functions.ctl"/>
-			<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Setpoint Functions.ctl" Type="VI" URL="../src/Inflation Test/Controls/Setpoint Functions.ctl"/>
+				<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
+				<Item Name="sinusoidal controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/sinusoidal controls.ctl"/>
+				<Item Name="Ramp Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Ramp Controls.ctl"/>
+				<Item Name="Blood Pressure Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Blood Pressure Controls.ctl"/>
+				<Item Name="Open Loop Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Open Loop Controls.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
 			<Item Name="Hardware Options.ctl" Type="VI" URL="../src/Inflation Test/Controls/Hardware Options.ctl"/>
 		</Item>
+		<Item Name="OLD" Type="Folder">
+			<Item Name="Support VIs" Type="Folder">
+				<Item Name="Bundle test data.vi" Type="VI" URL="../src/Support VIs/Bundle test data.vi"/>
+				<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+				<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+				<Item Name="controller.vi" Type="VI" URL="../src/Support VIs/controller.vi"/>
+				<Item Name="Dequeue Msg.vi" Type="VI" URL="../src/Support VIs/Dequeue Msg.vi"/>
+				<Item Name="Dev Mode Hide.vi" Type="VI" URL="../src/Support VIs/Dev Mode Hide.vi"/>
+				<Item Name="Enqueue Msg.vi" Type="VI" URL="../src/Support VIs/Enqueue Msg.vi"/>
+				<Item Name="FC Logic.vi" Type="VI" URL="../src/Support VIs/FC Logic.vi"/>
+				<Item Name="Get Camera Data.vi" Type="VI" URL="../src/Support VIs/Get Camera Data.vi"/>
+				<Item Name="Get force data.vi" Type="VI" URL="../src/Support VIs/Get force data.vi"/>
+				<Item Name="Get time.vi" Type="VI" URL="../src/Support VIs/Get time.vi"/>
+				<Item Name="HW Global.vi" Type="VI" URL="../src/Support VIs/HW Global.vi"/>
+				<Item Name="Init HW.vi" Type="VI" URL="../src/Support VIs/Init HW.vi"/>
+				<Item Name="InitializeMain.vi" Type="VI" URL="../src/Support VIs/InitializeMain.vi"/>
+				<Item Name="Name file.vi" Type="VI" URL="../src/Support VIs/Name file.vi"/>
+				<Item Name="QMH release all.vi" Type="VI" URL="../src/Support VIs/QMH release all.vi"/>
+				<Item Name="Results to string.vi" Type="VI" URL="../src/Support VIs/Results to string.vi"/>
+				<Item Name="Servo input.vi" Type="VI" URL="../src/Support VIs/Servo input.vi"/>
+				<Item Name="Setpoint calculation.vi" Type="VI" URL="../src/Support VIs/Setpoint calculation.vi"/>
+				<Item Name="Time calculator.vi" Type="VI" URL="../src/Support VIs/Time calculator.vi"/>
+				<Item Name="Run Inflation.vi" Type="VI" URL="../src/Support VIs/Run Inflation.vi"/>
+				<Item Name="Replace Array Element.vi" Type="VI" URL="../src/Support VIs/Replace Array Element.vi"/>
+				<Item Name="Calibrate Array.vi" Type="VI" URL="../src/Support VIs/Calibrate Array.vi"/>
+				<Item Name="Control visibility.vi" Type="VI" URL="../src/Support VIs/Control visibility.vi"/>
+			</Item>
+			<Item Name="Controls" Type="Folder">
+				<Item Name="HW States.ctl" Type="VI" URL="../src/Controls/HW States.ctl"/>
+				<Item Name="HWchannels.ctl" Type="VI" URL="../src/Controls/HWchannels.ctl"/>
+				<Item Name="Outputs.ctl" Type="VI" URL="../src/Controls/Outputs.ctl"/>
+				<Item Name="Serpoint.ctl" Type="VI" URL="../src/Controls/Serpoint.ctl"/>
+				<Item Name="Test Variables.ctl" Type="VI" URL="../src/Controls/Test Variables.ctl"/>
+				<Item Name="Camera output.ctl" Type="VI" URL="../src/Controls/Camera output.ctl"/>
+				<Item Name="Time data.ctl" Type="VI" URL="../src/Controls/Time data.ctl"/>
+			</Item>
+			<Item Name="Libraries Used" Type="Folder">
+				<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
+				<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+				<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
+					<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				</Item>
+				<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
+					<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				</Item>
+				<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+					<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				</Item>
+				<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+					<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				</Item>
+				<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+					<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				</Item>
+				<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
-		<Item Name="Inflation Camera.vi" Type="VI" URL="../src/GUI/Inflation Camera.vi"/>
-		<Item Name="sinusoidal controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/sinusoidal controls.ctl"/>
-		<Item Name="Ramp Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Ramp Controls.ctl"/>
-		<Item Name="Blood Pressure Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Blood Pressure Controls.ctl"/>
-		<Item Name="Open Loop Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Open Loop Controls.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
