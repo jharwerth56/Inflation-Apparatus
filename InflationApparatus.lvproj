@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="Servo Tester.vi" Type="VI" URL="../src/Support VIs/Servo Tester.vi"/>
+			<Item Name="Test Class.vi" Type="VI" URL="../src/Tools/Test Class.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
 			<Item Name="Controls" Type="Folder">
@@ -46,7 +47,20 @@
 			</Item>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
+			<Item Name="Sensors" Type="Folder">
+				<Item Name="Camera" Type="Folder">
+					<Item Name="Camera.lvclass" Type="LVClass" URL="../src/Hardware/Sensors/Cameras/Camera.lvclass"/>
+				</Item>
+				<Item Name="Force Sensor" Type="Folder">
+					<Item Name="Simulated" Type="Folder">
+						<Item Name="Simulated Force Sensor.lvclass" Type="LVClass" URL="../src/Hardware/Sensors/Force Sensors/Simulated Force Sensor/Simulated Force Sensor.lvclass"/>
+					</Item>
+					<Item Name="Force Sensor.lvclass" Type="LVClass" URL="../src/Hardware/Sensors/Force Sensors/Force Sensor.lvclass"/>
+				</Item>
+				<Item Name="Sensor.lvclass" Type="LVClass" URL="../src/Hardware/Sensors/Sensor.lvclass"/>
+			</Item>
 			<Item Name="Hardware Options.ctl" Type="VI" URL="../src/Inflation Test/Controls/Hardware Options.ctl"/>
+			<Item Name="General Hardware.lvclass" Type="LVClass" URL="../src/Hardware/General Hardware.lvclass"/>
 		</Item>
 		<Item Name="OLD" Type="Folder">
 			<Item Name="Support VIs" Type="Folder">
