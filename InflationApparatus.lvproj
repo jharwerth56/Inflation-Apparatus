@@ -49,6 +49,9 @@
 		<Item Name="Hardware" Type="Folder">
 			<Item Name="Sensors" Type="Folder">
 				<Item Name="Camera" Type="Folder">
+					<Item Name="Simulated Camera" Type="Folder">
+						<Item Name="Simulated Camera.lvclass" Type="LVClass" URL="../src/Hardware/Sensors/Cameras/Simulated Camera/Simulated Camera.lvclass"/>
+					</Item>
 					<Item Name="Camera.lvclass" Type="LVClass" URL="../src/Hardware/Sensors/Cameras/Camera.lvclass"/>
 				</Item>
 				<Item Name="Force Sensor" Type="Folder">
