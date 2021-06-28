@@ -62,6 +62,21 @@
 				</Item>
 				<Item Name="Sensor.lvclass" Type="LVClass" URL="../src/Hardware/Sensors/Sensor.lvclass"/>
 			</Item>
+			<Item Name="Actuators" Type="Folder">
+				<Item Name="Servos" Type="Folder">
+					<Item Name="Simulated Servo" Type="Folder">
+						<Item Name="Simulated Servo.lvclass" Type="LVClass" URL="../src/Hardware/Actuators/Servos/Simulated Servo/Simulated Servo.lvclass"/>
+					</Item>
+					<Item Name="Servo.lvclass" Type="LVClass" URL="../src/Hardware/Actuators/Servos/Servo.lvclass"/>
+				</Item>
+				<Item Name="Switches" Type="Folder">
+					<Item Name="Simulated Switch" Type="Folder">
+						<Item Name="Simulated Switch.lvclass" Type="LVClass" URL="../src/Hardware/Actuators/Switches/Simulated Switch/Simulated Switch.lvclass"/>
+					</Item>
+					<Item Name="Switch.lvclass" Type="LVClass" URL="../src/Hardware/Actuators/Switches/Switch.lvclass"/>
+				</Item>
+				<Item Name="Actuator.lvclass" Type="LVClass" URL="../src/Hardware/Actuators/Actuator.lvclass"/>
+			</Item>
 			<Item Name="Hardware Options.ctl" Type="VI" URL="../src/Inflation Test/Controls/Hardware Options.ctl"/>
 			<Item Name="General Hardware.lvclass" Type="LVClass" URL="../src/Hardware/General Hardware.lvclass"/>
 		</Item>
