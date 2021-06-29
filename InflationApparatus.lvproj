@@ -80,6 +80,15 @@
 			<Item Name="Hardware Options.ctl" Type="VI" URL="../src/Inflation Test/Controls/Hardware Options.ctl"/>
 			<Item Name="General Hardware.lvclass" Type="LVClass" URL="../src/Hardware/General Hardware.lvclass"/>
 		</Item>
+		<Item Name="Controllers" Type="Folder">
+			<Item Name="PID" Type="Folder">
+				<Item Name="PID Controller.lvclass" Type="LVClass" URL="../src/Controllers/PID/PID Controller.lvclass"/>
+			</Item>
+			<Item Name="Simulated" Type="Folder">
+				<Item Name="Simulated Controller.lvclass" Type="LVClass" URL="../src/Controllers/Simulated Controller/Simulated Controller.lvclass"/>
+			</Item>
+			<Item Name="Controller.lvclass" Type="LVClass" URL="../src/Controllers/Controller.lvclass"/>
+		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -193,6 +202,14 @@
 				<Item Name="IB_2019_2018_RW_Convert_Path_to_Relative.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/Compatibility/IB_2019_2018_RW_Convert_Path_to_Relative.vi"/>
 				<Item Name="IB_Relative_Path_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_Relative_Path_Type.ctl"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
