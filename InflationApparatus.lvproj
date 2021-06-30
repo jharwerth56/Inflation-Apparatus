@@ -14,6 +14,7 @@
 		<Item Name="Tools" Type="Folder">
 			<Item Name="Servo Tester.vi" Type="VI" URL="../src/Tools/Servo Tester.vi"/>
 			<Item Name="Test Class.vi" Type="VI" URL="../src/Tools/Test Class.vi"/>
+			<Item Name="Test Queues.vi" Type="VI" URL="../src/Tools/Test Queues.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
 			<Item Name="Controls" Type="Folder">
@@ -89,6 +90,7 @@
 			</Item>
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../src/Controllers/Controller.lvclass"/>
 		</Item>
+		<Item Name="Messaging" Type="Folder"/>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
