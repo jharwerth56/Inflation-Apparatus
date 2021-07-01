@@ -45,6 +45,7 @@
 				<Item Name="Ramp Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Ramp Controls.ctl"/>
 				<Item Name="Blood Pressure Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Blood Pressure Controls.ctl"/>
 				<Item Name="Open Loop Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Open Loop Controls.ctl"/>
+				<Item Name="Common IA Test Control.ctl" Type="VI" URL="../src/Inflation Test/Controls/Common IA Test Control.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
@@ -90,8 +91,17 @@
 			</Item>
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../src/Controllers/Controller.lvclass"/>
 		</Item>
-		<Item Name="Messaging" Type="Folder"/>
-		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
+		<Item Name="Messaging" Type="Folder">
+			<Item Name="Messaging Cluster.ctl" Type="VI" URL="../src/Messaging/Messaging Cluster.ctl"/>
+			<Item Name="Obtain Queues.vi" Type="VI" URL="../src/Messaging/Obtain Queues.vi"/>
+			<Item Name="Start Shutdown.vi" Type="VI" URL="../src/Messaging/Start Shutdown.vi"/>
+		</Item>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Error Handler.vi" Type="VI" URL="../src/Utility/Error Handler.vi"/>
+			<Item Name="RT Close LabVIEW.vi" Type="VI" URL="../src/Utility/RT Close LabVIEW.vi"/>
+			<Item Name="Unknown Case.vi" Type="VI" URL="../src/Utility/Unknown Case.vi"/>
+		</Item>
+		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
@@ -281,7 +291,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{9A879C09-6C40-4A4E-9B57-7B1B73FE9448}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/InflationApparatus.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inflation Apparatus.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
