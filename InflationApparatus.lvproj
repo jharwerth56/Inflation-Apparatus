@@ -68,8 +68,10 @@
 		</Item>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="Servo Tester.vi" Type="VI" URL="../src/Support VIs/Servo Tester.vi"/>
+			<Item Name="Change_Duty_Cycle_Write_VI.vi" Type="VI" URL="../src/Support VIs/Change_Duty_Cycle_Write_VI.vi"/>
 		</Item>
 		<Item Name="InflationApparatus.vi" Type="VI" URL="../src/InflationApparatus.vi"/>
+		<Item Name="Pulse width to duty cycle.vi" Type="VI" URL="../src/Support VIs/Pulse width to duty cycle.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -360,6 +362,7 @@
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="DAQmx Is Task Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Is Task Done.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
