@@ -38,14 +38,20 @@
 			<Item Name="Get Version.vi" Type="VI" URL="../src/Build Execution/Get Version.vi"/>
 		</Item>
 		<Item Name="Inflation Test" Type="Folder">
-			<Item Name="Controls" Type="Folder">
+			<Item Name="FP Controls" Type="Folder">
 				<Item Name="Setpoint Functions.ctl" Type="VI" URL="../src/Inflation Test/Controls/Setpoint Functions.ctl"/>
 				<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
 				<Item Name="sinusoidal controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/sinusoidal controls.ctl"/>
 				<Item Name="Ramp Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Ramp Controls.ctl"/>
 				<Item Name="Blood Pressure Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Blood Pressure Controls.ctl"/>
 				<Item Name="Open Loop Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Open Loop Controls.ctl"/>
-				<Item Name="Common IA Test Control.ctl" Type="VI" URL="../src/Inflation Test/Controls/Common IA Test Control.ctl"/>
+			</Item>
+			<Item Name="Paramter Class" Type="Folder">
+				<Item Name="Setpoints" Type="Folder">
+					<Item Name="Open-Loop Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Open-loop/Open-Loop Setpoint.lvclass"/>
+					<Item Name="Ramp Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Ramp Setpoint/Ramp Setpoint.lvclass"/>
+				</Item>
+				<Item Name="IA Test Parameters.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/IA Test Parameters.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
@@ -102,6 +108,7 @@
 			<Item Name="Unknown Case.vi" Type="VI" URL="../src/Utility/Unknown Case.vi"/>
 		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
+		<Item Name="Common IA Test Control.ctl" Type="VI" URL="../src/Inflation Test/Controls/Common IA Test Control.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
