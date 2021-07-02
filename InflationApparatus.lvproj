@@ -40,7 +40,7 @@
 		<Item Name="Inflation Test" Type="Folder">
 			<Item Name="FP Controls" Type="Folder">
 				<Item Name="Setpoint Functions.ctl" Type="VI" URL="../src/Inflation Test/Controls/Setpoint Functions.ctl"/>
-				<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
+				<Item Name="Common IA Test Control.ctl" Type="VI" URL="../src/Inflation Test/Controls/Common IA Test Control.ctl"/>
 				<Item Name="sinusoidal controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/sinusoidal controls.ctl"/>
 				<Item Name="Ramp Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Ramp Controls.ctl"/>
 				<Item Name="Blood Pressure Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Blood Pressure Controls.ctl"/>
@@ -52,6 +52,19 @@
 					<Item Name="Ramp Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Ramp Setpoint/Ramp Setpoint.lvclass"/>
 				</Item>
 				<Item Name="IA Test Parameters.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/IA Test Parameters.lvclass"/>
+			</Item>
+			<Item Name="Run Test" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="Get Test Time.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Get Test Time.vi"/>
+					<Item Name="Abort Test.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Abort Test.vi"/>
+					<Item Name="Bundle Test Data.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Bundle Test Data.vi"/>
+					<Item Name="Acquire Data.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Acquire Data.vi"/>
+					<Item Name="Control Servo.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Control Servo.vi"/>
+					<Item Name="Control Switch.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Control Switch.vi"/>
+					<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
+				</Item>
+				<Item Name="Set Wait time.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Set Wait time.vi"/>
+				<Item Name="Run Inflation Test.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Run Inflation Test.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
@@ -99,7 +112,7 @@
 		</Item>
 		<Item Name="Messaging" Type="Folder">
 			<Item Name="Messaging Cluster.ctl" Type="VI" URL="../src/Messaging/Messaging Cluster.ctl"/>
-			<Item Name="Obtain Queues.vi" Type="VI" URL="../src/Messaging/Obtain Queues.vi"/>
+			<Item Name="Obtain Messaging Network.vi" Type="VI" URL="../src/Messaging/Obtain Messaging Network.vi"/>
 			<Item Name="Start Shutdown.vi" Type="VI" URL="../src/Messaging/Start Shutdown.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
@@ -107,8 +120,11 @@
 			<Item Name="RT Close LabVIEW.vi" Type="VI" URL="../src/Utility/RT Close LabVIEW.vi"/>
 			<Item Name="Unknown Case.vi" Type="VI" URL="../src/Utility/Unknown Case.vi"/>
 		</Item>
+		<Item Name="Controller Loop" Type="Folder">
+			<Item Name="Message and Data.ctl" Type="VI" URL="../src/Controller Loop/Message and Data.ctl"/>
+			<Item Name="Controller Data.ctl" Type="VI" URL="../src/Controller Loop/Controller Data.ctl"/>
+		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
-		<Item Name="Common IA Test Control.ctl" Type="VI" URL="../src/Inflation Test/Controls/Common IA Test Control.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
