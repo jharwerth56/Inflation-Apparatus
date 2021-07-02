@@ -28,10 +28,13 @@
 				<Item Name="Test Equipment - Servo and Force.vi" Type="VI" URL="../src/GUI/Test Equipment - Servo and Force.vi"/>
 				<Item Name="Inflation Camera - Screen Grab.vi" Type="VI" URL="../src/GUI/Inflation Camera - Screen Grab.vi"/>
 			</Item>
-			<Item Name="Enforce N Button Switch.vi" Type="VI" URL="../src/GUI/Enforce N Button Switch.vi"/>
+			<Item Name="Main GUI Loop" Type="Folder">
+				<Item Name="Handler.ctl" Type="VI" URL="../src/GUI/Main GUI Loop/Handler.ctl"/>
+				<Item Name="Enforce N Button Switch.vi" Type="VI" URL="../src/GUI/Enforce N Button Switch.vi"/>
+				<Item Name="Get Sub Panel.vi" Type="VI" URL="../src/GUI/Get Sub Panel.vi"/>
+				<Item Name="Set Tabs.vi" Type="VI" URL="../src/GUI/Set Tabs.vi"/>
+			</Item>
 			<Item Name="Pair Banner Elements.vi" Type="VI" URL="../src/GUI/Pair Banner Elements.vi"/>
-			<Item Name="Get Sub Panel.vi" Type="VI" URL="../src/GUI/Get Sub Panel.vi"/>
-			<Item Name="Set Tabs.vi" Type="VI" URL="../src/GUI/Set Tabs.vi"/>
 		</Item>
 		<Item Name="Build Execution" Type="Folder">
 			<Item Name="Save Version.vi" Type="VI" URL="../src/Build Execution/Save Version.vi"/>
@@ -119,6 +122,7 @@
 			<Item Name="Error Handler.vi" Type="VI" URL="../src/Utility/Error Handler.vi"/>
 			<Item Name="RT Close LabVIEW.vi" Type="VI" URL="../src/Utility/RT Close LabVIEW.vi"/>
 			<Item Name="Unknown Case.vi" Type="VI" URL="../src/Utility/Unknown Case.vi"/>
+			<Item Name="Error Handler SubLoops.vi" Type="VI" URL="../src/Utility/Error Handler SubLoops.vi"/>
 		</Item>
 		<Item Name="Controller Loop" Type="Folder">
 			<Item Name="Message and Data.ctl" Type="VI" URL="../src/Controller Loop/Message and Data.ctl"/>
@@ -129,6 +133,9 @@
 			<Item Name="Inflation Results to String.vi" Type="VI" URL="../src/File Interfacing/Inflation Results to String.vi"/>
 		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
+		<Item Name="Camera Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Camera Main Loop.vi"/>
+		<Item Name="Force Sensor Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Force Sensor Main Loop.vi"/>
+		<Item Name="Destroy Messaging Network.vi" Type="VI" URL="../src/Messaging/Destroy Messaging Network.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
