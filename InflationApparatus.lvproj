@@ -27,12 +27,15 @@
 				<Item Name="Inflation Camera.vi" Type="VI" URL="../src/GUI/Inflation Camera.vi"/>
 				<Item Name="Test Equipment - Servo and Force.vi" Type="VI" URL="../src/GUI/Test Equipment - Servo and Force.vi"/>
 				<Item Name="Inflation Camera - Screen Grab.vi" Type="VI" URL="../src/GUI/Inflation Camera - Screen Grab.vi"/>
+				<Item Name="Gather Subpanel References.vi" Type="VI" URL="../src/GUI/Gather Subpanel References.vi"/>
 			</Item>
 			<Item Name="Main GUI Loop" Type="Folder">
 				<Item Name="Handler.ctl" Type="VI" URL="../src/GUI/Main GUI Loop/Handler.ctl"/>
 				<Item Name="Enforce N Button Switch.vi" Type="VI" URL="../src/GUI/Enforce N Button Switch.vi"/>
 				<Item Name="Get Sub Panel.vi" Type="VI" URL="../src/GUI/Get Sub Panel.vi"/>
 				<Item Name="Set Tabs.vi" Type="VI" URL="../src/GUI/Set Tabs.vi"/>
+				<Item Name="Bundle Tabs.vi" Type="VI" URL="../src/GUI/Bundle Tabs.vi"/>
+				<Item Name="Enqueue Main GUI Initialization.vi" Type="VI" URL="../src/GUI/Enqueue Main GUI Initialization.vi"/>
 			</Item>
 			<Item Name="Pair Banner Elements.vi" Type="VI" URL="../src/GUI/Pair Banner Elements.vi"/>
 		</Item>
@@ -65,6 +68,7 @@
 					<Item Name="Control Servo.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Control Servo.vi"/>
 					<Item Name="Control Switch.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Control Switch.vi"/>
 					<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
+					<Item Name="Abort Test Dequeue.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Abort Test Dequeue.vi"/>
 				</Item>
 				<Item Name="Set Wait time.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Set Wait time.vi"/>
 				<Item Name="Run Inflation Test.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Run Inflation Test.vi"/>
@@ -117,6 +121,11 @@
 			<Item Name="Messaging Cluster.ctl" Type="VI" URL="../src/Messaging/Messaging Cluster.ctl"/>
 			<Item Name="Obtain Messaging Network.vi" Type="VI" URL="../src/Messaging/Obtain Messaging Network.vi"/>
 			<Item Name="Start Shutdown.vi" Type="VI" URL="../src/Messaging/Start Shutdown.vi"/>
+			<Item Name="Destroy Messaging Network.vi" Type="VI" URL="../src/Messaging/Destroy Messaging Network.vi"/>
+			<Item Name="Send Shutdown Message.vi" Type="VI" URL="../src/Messaging/Send Shutdown Message.vi"/>
+			<Item Name="Notifier Case Exists.vi" Type="VI" URL="../src/Messaging/Notifier Case Exists.vi"/>
+			<Item Name="Confirm Shutdown.vi" Type="VI" URL="../src/Messaging/Confirm Shutdown.vi"/>
+			<Item Name="Initialize Network.vi" Type="VI" URL="../src/Messaging/Initialize Network.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Error Handler.vi" Type="VI" URL="../src/Utility/Error Handler.vi"/>
@@ -132,10 +141,12 @@
 			<Item Name="Generate File Name.vi" Type="VI" URL="../src/File Interfacing/Generate File Name.vi"/>
 			<Item Name="Inflation Results to String.vi" Type="VI" URL="../src/File Interfacing/Inflation Results to String.vi"/>
 		</Item>
+		<Item Name="Main Loops" Type="Folder">
+			<Item Name="Camera Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Camera Main Loop.vi"/>
+			<Item Name="Force Sensor Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Force Sensor Main Loop.vi"/>
+			<Item Name="Controller Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Controller Main Loop.vi"/>
+		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
-		<Item Name="Camera Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Camera Main Loop.vi"/>
-		<Item Name="Force Sensor Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Force Sensor Main Loop.vi"/>
-		<Item Name="Destroy Messaging Network.vi" Type="VI" URL="../src/Messaging/Destroy Messaging Network.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
