@@ -36,6 +36,7 @@
 				<Item Name="Set Tabs.vi" Type="VI" URL="../src/GUI/Set Tabs.vi"/>
 				<Item Name="Bundle Tabs.vi" Type="VI" URL="../src/GUI/Bundle Tabs.vi"/>
 				<Item Name="Enqueue Main GUI Initialization.vi" Type="VI" URL="../src/GUI/Enqueue Main GUI Initialization.vi"/>
+				<Item Name="Disable References.vi" Type="VI" URL="../src/GUI/Disable References.vi"/>
 			</Item>
 			<Item Name="Pair Banner Elements.vi" Type="VI" URL="../src/GUI/Pair Banner Elements.vi"/>
 		</Item>
@@ -69,6 +70,8 @@
 					<Item Name="Control Switch.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Control Switch.vi"/>
 					<Item Name="Inflation Test Numeric Results.ctl" Type="VI" URL="../src/Inflation Test/Result Handling/Inflation Test Numeric Results.ctl"/>
 					<Item Name="Abort Test Dequeue.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Abort Test Dequeue.vi"/>
+					<Item Name="Set Common Parameters.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Set Common Parameters.vi"/>
+					<Item Name="Set Setpoint Paramters.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Set Setpoint Paramters.vi"/>
 				</Item>
 				<Item Name="Set Wait time.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Set Wait time.vi"/>
 				<Item Name="Run Inflation Test.vi" Type="VI" URL="../src/Inflation Test/Test Utilities/Run Inflation Test.vi"/>
@@ -145,6 +148,8 @@
 			<Item Name="Camera Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Camera Main Loop.vi"/>
 			<Item Name="Force Sensor Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Force Sensor Main Loop.vi"/>
 			<Item Name="Controller Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Controller Main Loop.vi"/>
+			<Item Name="Servo Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Servo Main Loop.vi"/>
+			<Item Name="LED Main Loop.vi" Type="VI" URL="../src/Hardware Loops/LED Main Loop.vi"/>
 		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
