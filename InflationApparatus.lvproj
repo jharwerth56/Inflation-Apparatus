@@ -15,6 +15,7 @@
 			<Item Name="Servo Tester.vi" Type="VI" URL="../src/Tools/Servo Tester.vi"/>
 			<Item Name="Test Class.vi" Type="VI" URL="../src/Tools/Test Class.vi"/>
 			<Item Name="Test Queues.vi" Type="VI" URL="../src/Tools/Test Queues.vi"/>
+			<Item Name="Force and Diameter Charts Notifier Debug.vi" Type="VI" URL="../src/Tools/Force and Diameter Charts Notifier Debug.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
 			<Item Name="Controls" Type="Folder">
