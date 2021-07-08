@@ -29,6 +29,7 @@
 				<Item Name="Test Equipment - Servo and Force.vi" Type="VI" URL="../src/GUI/Test Equipment - Servo and Force.vi"/>
 				<Item Name="Inflation Camera - Screen Grab.vi" Type="VI" URL="../src/GUI/Inflation Camera - Screen Grab.vi"/>
 				<Item Name="Gather Subpanel References.vi" Type="VI" URL="../src/GUI/Gather Subpanel References.vi"/>
+				<Item Name="Bundle Test Graph Data.vi" Type="VI" URL="../src/GUI/Bundle Test Graph Data.vi"/>
 			</Item>
 			<Item Name="Main GUI Loop" Type="Folder">
 				<Item Name="Handler.ctl" Type="VI" URL="../src/GUI/Main GUI Loop/Handler.ctl"/>
@@ -141,9 +142,10 @@
 			<Item Name="Message and Data.ctl" Type="VI" URL="../src/Controller Loop/Message and Data.ctl"/>
 			<Item Name="Controller Data.ctl" Type="VI" URL="../src/Controller Loop/Controller Data.ctl"/>
 		</Item>
-		<Item Name="Files" Type="Folder">
+		<Item Name="File Interfacing" Type="Folder">
 			<Item Name="Generate File Name.vi" Type="VI" URL="../src/File Interfacing/Generate File Name.vi"/>
 			<Item Name="Inflation Results to String.vi" Type="VI" URL="../src/File Interfacing/Inflation Results to String.vi"/>
+			<Item Name="Save File Comments.vi" Type="VI" URL="../src/File Interfacing/Save File Comments.vi"/>
 		</Item>
 		<Item Name="Main Loops" Type="Folder">
 			<Item Name="Camera Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Camera Main Loop.vi"/>
