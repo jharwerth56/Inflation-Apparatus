@@ -41,6 +41,7 @@
 				<Item Name="Disable References.vi" Type="VI" URL="../src/GUI/Disable References.vi"/>
 			</Item>
 			<Item Name="Pair Banner Elements.vi" Type="VI" URL="../src/GUI/Pair Banner Elements.vi"/>
+			<Item Name="Hide Front Panel.vi" Type="VI" URL="../src/GUI/Hide Front Panel.vi"/>
 		</Item>
 		<Item Name="Build Execution" Type="Folder">
 			<Item Name="Save Version.vi" Type="VI" URL="../src/Build Execution/Save Version.vi"/>
@@ -125,6 +126,7 @@
 			<Item Name="Utility" Type="Folder">
 				<Item Name="Pulse Width to Duty Cycle.vi" Type="VI" URL="../src/Hardware/Utility/Pulse Width to Duty Cycle.vi"/>
 				<Item Name="Hardware Options.ctl" Type="VI" URL="../src/Inflation Test/Controls/Hardware Options.ctl"/>
+				<Item Name="HW Cluster to Classes.vi" Type="VI" URL="../src/Hardware/Utility/HW Cluster to Classes.vi"/>
 			</Item>
 			<Item Name="General Hardware.lvclass" Type="LVClass" URL="../src/Hardware/General Hardware.lvclass"/>
 		</Item>
@@ -553,7 +555,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build Execution/Save Version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3101C9-5B80-4F10-A305-7EC7D253F9A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inflation Apparatus.exe</Property>
@@ -566,7 +568,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon/Inflation Apparatus Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E2F38BC-DC69-4A6F-B5EE-622271555657}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{574FA99A-9A97-4B88-8DC8-83BCE59C6838}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inflation Apparatus.vi</Property>
