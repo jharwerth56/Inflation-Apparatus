@@ -30,6 +30,9 @@
 				<Item Name="Inflation Camera - Screen Grab.vi" Type="VI" URL="../src/GUI/Inflation Camera - Screen Grab.vi"/>
 				<Item Name="Gather Subpanel References.vi" Type="VI" URL="../src/GUI/Gather Subpanel References.vi"/>
 				<Item Name="Bundle Test Graph Data.vi" Type="VI" URL="../src/GUI/Bundle Test Graph Data.vi"/>
+				<Item Name="Activate GUI Panel.vi" Type="VI" URL="../src/GUI/Activate GUI Panel.vi"/>
+				<Item Name="Wait for Message.vi" Type="VI" URL="../src/GUI/Wait for Message.vi"/>
+				<Item Name="Wait for Message Array.vi" Type="VI" URL="../src/GUI/Wait for Message Array.vi"/>
 			</Item>
 			<Item Name="Main GUI Loop" Type="Folder">
 				<Item Name="Handler.ctl" Type="VI" URL="../src/GUI/Main GUI Loop/Handler.ctl"/>
@@ -555,7 +558,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build Execution/Save Version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3101C9-5B80-4F10-A305-7EC7D253F9A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inflation Apparatus.exe</Property>
