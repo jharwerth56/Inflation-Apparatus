@@ -172,7 +172,7 @@
 			<Item Name="LED Main Loop.vi" Type="VI" URL="../src/Hardware Loops/LED Main Loop.vi"/>
 		</Item>
 		<Item Name="Icon" Type="Folder">
-			<Item Name="Inflation Apparatus Icon.ico" Type="Document" URL="../src/Icon/Inflation Apparatus Icon.ico"/>
+			<Item Name="IA Icon.ico" Type="Document" URL="../src/Icon/IA Icon.ico"/>
 		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -555,7 +555,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build Execution/Save Version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3101C9-5B80-4F10-A305-7EC7D253F9A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inflation Apparatus.exe</Property>
@@ -567,8 +567,8 @@
 				<Property Name="Destination[1].path" Type="Path">../bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon/Inflation Apparatus Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{574FA99A-9A97-4B88-8DC8-83BCE59C6838}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon/IA Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{75950955-1FF9-48B2-AC8B-62D168A59715}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inflation Apparatus.vi</Property>
