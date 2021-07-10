@@ -54,7 +54,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1351098896</Property>
 	</Item>
-	<Item Name="Write USB Camera Parameters.vi" Type="VI" URL="../Write USB Camera Parameters.vi">
+	<Item Name="Write USB Port.vi" Type="VI" URL="../Write USB Port.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!5%F641C"$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!$F641C"$97VF=G%A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#9!.`````]!"3!!A!!!!!!"!!1!!!!"!!!!!!!!"EF.16&amp;E?!!!61$R!!!!!!!!!!%+35V"572Y,G.U&lt;!"#1(!!&amp;1:*45&amp;2:(A!!!%!"Q:*45&amp;2:(A!)!#!!!!!!!%!"!!!!!%!!!!!!!!/9W&amp;N:8*B)(.F=X.J&lt;WY!!#R!=!!?!!!5%F641C"$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!$6641C"$97VF=G%A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!)!!E#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>

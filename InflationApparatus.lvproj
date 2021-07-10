@@ -130,6 +130,9 @@
 				<Item Name="Pulse Width to Duty Cycle.vi" Type="VI" URL="../src/Hardware/Utility/Pulse Width to Duty Cycle.vi"/>
 				<Item Name="Hardware Options.ctl" Type="VI" URL="../src/Inflation Test/Controls/Hardware Options.ctl"/>
 				<Item Name="HW Cluster to Classes.vi" Type="VI" URL="../src/Hardware/Utility/HW Cluster to Classes.vi"/>
+				<Item Name="Check for DAQmx Errors.vi" Type="VI" URL="../src/Hardware/Utility/Check for DAQmx Errors.vi"/>
+				<Item Name="Display Hardware Error.vi" Type="VI" URL="../src/Hardware/Utility/Display Hardware Error.vi"/>
+				<Item Name="Get Simulated Classes.vi" Type="VI" URL="../src/Hardware/Utility/Get Simulated Classes.vi"/>
 			</Item>
 			<Item Name="General Hardware.lvclass" Type="LVClass" URL="../src/Hardware/General Hardware.lvclass"/>
 		</Item>
@@ -151,6 +154,7 @@
 			<Item Name="Notifier Case Exists.vi" Type="VI" URL="../src/Messaging/Notifier Case Exists.vi"/>
 			<Item Name="Confirm Shutdown.vi" Type="VI" URL="../src/Messaging/Confirm Shutdown.vi"/>
 			<Item Name="Initialize Network.vi" Type="VI" URL="../src/Messaging/Initialize Network.vi"/>
+			<Item Name="GUI Notifier Wait for Message.vi" Type="VI" URL="../src/Messaging/GUI Notifier Wait for Message.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Error Handler.vi" Type="VI" URL="../src/Utility/Error Handler.vi"/>
@@ -166,6 +170,7 @@
 			<Item Name="Generate File Name.vi" Type="VI" URL="../src/File Interfacing/Generate File Name.vi"/>
 			<Item Name="Inflation Results to String.vi" Type="VI" URL="../src/File Interfacing/Inflation Results to String.vi"/>
 			<Item Name="Save File Comments.vi" Type="VI" URL="../src/File Interfacing/Save File Comments.vi"/>
+			<Item Name="Calibration to String.vi" Type="VI" URL="../src/File Interfacing/Calibration to String.vi"/>
 		</Item>
 		<Item Name="Main Loops" Type="Folder">
 			<Item Name="Camera Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Camera Main Loop.vi"/>
@@ -176,6 +181,14 @@
 		</Item>
 		<Item Name="Icon" Type="Folder">
 			<Item Name="IA Icon.ico" Type="Document" URL="../src/Icon/IA Icon.ico"/>
+		</Item>
+		<Item Name="Calibration" Type="Folder">
+			<Item Name="Log Force Sensor Calibration.vi" Type="VI" URL="../src/Calibration/Log Force Sensor Calibration.vi"/>
+			<Item Name="Calculate Force Calibration Linear Fit.vi" Type="VI" URL="../src/Calibration/Calculate Force Calibration Linear Fit.vi"/>
+			<Item Name="Update Force Calibration Log.vi" Type="VI" URL="../src/Calibration/Update Force Calibration Log.vi"/>
+			<Item Name="Update Force Calibration Results.vi" Type="VI" URL="../src/Calibration/Update Force Calibration Results.vi"/>
+			<Item Name="Reset Force Calibration Arrays.vi" Type="VI" URL="../src/Calibration/Reset Force Calibration Arrays.vi"/>
+			<Item Name="Confirm Clear Calibration.vi" Type="VI" URL="../src/Calibration/Confirm Clear Calibration.vi"/>
 		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -494,6 +507,8 @@
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="subFilter.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/subFilter.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
