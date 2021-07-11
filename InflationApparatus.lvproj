@@ -43,6 +43,9 @@
 				<Item Name="Enqueue Main GUI Initialization.vi" Type="VI" URL="../src/GUI/Enqueue Main GUI Initialization.vi"/>
 				<Item Name="Disable References.vi" Type="VI" URL="../src/GUI/Disable References.vi"/>
 			</Item>
+			<Item Name="Menu" Type="Folder">
+				<Item Name="Inflation Apparatus Menu.rtm" Type="Document" URL="../src/GUI/Inflation Apparatus Menu.rtm"/>
+			</Item>
 			<Item Name="Pair Banner Elements.vi" Type="VI" URL="../src/GUI/Pair Banner Elements.vi"/>
 			<Item Name="Hide Front Panel.vi" Type="VI" URL="../src/GUI/Hide Front Panel.vi"/>
 		</Item>
@@ -142,6 +145,9 @@
 			</Item>
 			<Item Name="Simulated" Type="Folder">
 				<Item Name="Simulated Controller.lvclass" Type="LVClass" URL="../src/Controllers/Simulated Controller/Simulated Controller.lvclass"/>
+			</Item>
+			<Item Name="Utility" Type="Folder">
+				<Item Name="Choose Controller.vi" Type="VI" URL="../src/Controllers/Utility/Choose Controller.vi"/>
 			</Item>
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../src/Controllers/Controller.lvclass"/>
 		</Item>
@@ -509,6 +515,7 @@
 				<Item Name="subFilter.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/subFilter.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
@@ -573,7 +580,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build Execution/Save Version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3101C9-5B80-4F10-A305-7EC7D253F9A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inflation Apparatus.exe</Property>
