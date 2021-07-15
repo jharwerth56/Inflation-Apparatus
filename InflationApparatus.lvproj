@@ -178,6 +178,7 @@
 			<Item Name="Inflation Results to String.vi" Type="VI" URL="../src/File Interfacing/Inflation Results to String.vi"/>
 			<Item Name="Save File Comments.vi" Type="VI" URL="../src/File Interfacing/Save File Comments.vi"/>
 			<Item Name="Calibration to String.vi" Type="VI" URL="../src/File Interfacing/Calibration to String.vi"/>
+			<Item Name="Filename Structure.ctl" Type="VI" URL="../src/File Interfacing/Filename Structure.ctl"/>
 		</Item>
 		<Item Name="Main Loops" Type="Folder">
 			<Item Name="Camera Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Camera Main Loop.vi"/>
