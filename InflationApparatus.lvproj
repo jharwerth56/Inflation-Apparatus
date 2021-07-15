@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -582,7 +584,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build Execution/Save Version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3101C9-5B80-4F10-A305-7EC7D253F9A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inflation Apparatus.exe</Property>
@@ -683,7 +685,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{E15095A6-D81F-4211-95CC-67B7C54F13CA}</Property>
 				<Property Name="INST_installerName" Type="Str">inflation_app.exe</Property>
 				<Property Name="INST_productName" Type="Str">Inflation Apparatus</Property>
-				<Property Name="INST_productVersion" Type="Str">3.1.3</Property>
+				<Property Name="INST_productVersion" Type="Str">3.1.4</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Maryland</Property>
