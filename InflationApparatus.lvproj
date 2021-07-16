@@ -683,9 +683,9 @@
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToProject</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Inflation Apparatus Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{E15095A6-D81F-4211-95CC-67B7C54F13CA}</Property>
-				<Property Name="INST_installerName" Type="Str">inflation_app.exe</Property>
+				<Property Name="INST_installerName" Type="Str">InflationApparatusInstall.exe</Property>
 				<Property Name="INST_productName" Type="Str">Inflation Apparatus</Property>
-				<Property Name="INST_productVersion" Type="Str">3.1.4</Property>
+				<Property Name="INST_productVersion" Type="Str">3.1.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Maryland</Property>

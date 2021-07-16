@@ -1,10 +1,10 @@
 [Volume Id]
 DistributionGUID={F4522280-CDC6-418C-A464-DBCAF628B9AC}
-DistPackageGUID={824DDEDB-F2EB-4A45-BB58-3D4884A552A1}
-DistributionVersion=3.1.3
+DistPackageGUID={5A0DD0B8-3745-4DE4-B6A2-12B3ABE9F0E6}
+DistributionVersion=3.1.4
 DistributionType=MDF
 DistributionLanguage=9
 Volume=1
 TotalNumberOfVolumesInDistribution=1
-ExePath=inflation_app.exe
+ExePath=InflationApparatusInstall.exe
 UpdateInfoFile=supportfiles\updateInfo.xml
