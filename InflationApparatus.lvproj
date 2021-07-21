@@ -170,6 +170,7 @@
 			<Item Name="RT Close LabVIEW.vi" Type="VI" URL="../src/Utility/RT Close LabVIEW.vi"/>
 			<Item Name="Unknown Case.vi" Type="VI" URL="../src/Utility/Unknown Case.vi"/>
 			<Item Name="Error Handler SubLoops.vi" Type="VI" URL="../src/Utility/Error Handler SubLoops.vi"/>
+			<Item Name="Check for HW Error.vi" Type="VI" URL="../src/Utility/Check for HW Error.vi"/>
 		</Item>
 		<Item Name="Controller Loop" Type="Folder">
 			<Item Name="Message and Data.ctl" Type="VI" URL="../src/Controller Loop/Message and Data.ctl"/>
@@ -521,6 +522,11 @@
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
