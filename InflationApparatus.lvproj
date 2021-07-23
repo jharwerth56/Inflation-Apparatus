@@ -139,6 +139,7 @@
 				<Item Name="Check for DAQmx Errors.vi" Type="VI" URL="../src/Hardware/Utility/Check for DAQmx Errors.vi"/>
 				<Item Name="Display Hardware Error.vi" Type="VI" URL="../src/Hardware/Utility/Display Hardware Error.vi"/>
 				<Item Name="Get Simulated Classes.vi" Type="VI" URL="../src/Hardware/Utility/Get Simulated Classes.vi"/>
+				<Item Name="Check Servo Messages.vi" Type="VI" URL="../src/Hardware/Utility/Check Servo Messages.vi"/>
 			</Item>
 			<Item Name="General Hardware.lvclass" Type="LVClass" URL="../src/Hardware/General Hardware.lvclass"/>
 		</Item>
