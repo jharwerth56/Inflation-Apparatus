@@ -39,6 +39,7 @@
 				<Item Name="Activate GUI Panel.vi" Type="VI" URL="../src/GUI/Activate GUI Panel.vi"/>
 				<Item Name="Wait for Message.vi" Type="VI" URL="../src/GUI/Wait for Message.vi"/>
 				<Item Name="Wait for Message Array.vi" Type="VI" URL="../src/GUI/Wait for Message Array.vi"/>
+				<Item Name="Get Image Grab State.vi" Type="VI" URL="../src/GUI/Get Image Grab State.vi"/>
 			</Item>
 			<Item Name="Main GUI Loop" Type="Folder">
 				<Item Name="Handler.ctl" Type="VI" URL="../src/GUI/Main GUI Loop/Handler.ctl"/>
@@ -172,6 +173,8 @@
 			<Item Name="Confirm Shutdown.vi" Type="VI" URL="../src/Messaging/Confirm Shutdown.vi"/>
 			<Item Name="Initialize Network.vi" Type="VI" URL="../src/Messaging/Initialize Network.vi"/>
 			<Item Name="GUI Notifier Wait for Message.vi" Type="VI" URL="../src/Messaging/GUI Notifier Wait for Message.vi"/>
+			<Item Name="Start Cam Cal.vi" Type="VI" URL="../src/Messaging/Start Cam Cal.vi"/>
+			<Item Name="End Cam Cal.vi" Type="VI" URL="../src/Messaging/End Cam Cal.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Error Handler.vi" Type="VI" URL="../src/Utility/Error Handler.vi"/>
@@ -649,10 +652,10 @@
 				<Property Name="DistPart[3].productName" Type="Str">NI-IMAQdx Runtime 20.0</Property>
 				<Property Name="DistPart[3].upgradeCode" Type="Str">{3D104AB3-CE10-43C0-B647-07600754072C}</Property>
 				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[4].productID" Type="Str">{46BB74ED-C08B-4728-8D39-A72BBD0D63CE}</Property>
-				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Runtime 2020 f1 (64-bit)</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{6B440D80-3B0D-43B2-8A06-E2E939AA1006}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Runtime 2020 SP1</Property>
 				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
@@ -679,7 +682,7 @@
 				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">NI TDM Streaming 19.0</Property>
 				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[4].SoftDepCount" Type="Int">9</Property>
-				<Property Name="DistPart[4].upgradeCode" Type="Str">{9A9FE130-6C4C-498B-A054-CEB195F36BB4}</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
 				<Property Name="DistPartCount" Type="Int">5</Property>
 				<Property Name="INST_author" Type="Str">University of Maryland</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -690,8 +693,8 @@
 				<Property Name="INST_installerName" Type="Str">InflationApparatusInstall.exe</Property>
 				<Property Name="INST_productName" Type="Str">Inflation Apparatus</Property>
 				<Property Name="INST_productVersion" Type="Str">3.1.5</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20008014</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Maryland</Property>
 				<Property Name="MSI_arpContact" Type="Str">Jason Harwerth</Property>
 				<Property Name="MSI_arpURL" Type="Str">umd.edu</Property>
