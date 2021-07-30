@@ -20,6 +20,8 @@
 			<Item Name="Force and Diameter Charts Notifier Debug.vi" Type="VI" URL="../src/Tools/Force and Diameter Charts Notifier Debug.vi"/>
 			<Item Name="Camera Tester.vi" Type="VI" URL="../src/Tools/Camera Tester.vi"/>
 			<Item Name="Force Tester.vi" Type="VI" URL="../src/Tools/Force Tester.vi"/>
+			<Item Name="Camera Tester - No VA.vi" Type="VI" URL="../src/Tools/Camera Tester - No VA.vi"/>
+			<Item Name="Camera Tester - Calibration.vi" Type="VI" URL="../src/Tools/Camera Tester - Calibration.vi"/>
 		</Item>
 		<Item Name="GUI" Type="Folder">
 			<Item Name="Controls" Type="Folder">
@@ -143,6 +145,7 @@
 				<Item Name="Get Simulated Classes.vi" Type="VI" URL="../src/Hardware/Utility/Get Simulated Classes.vi"/>
 				<Item Name="Check Servo Messages.vi" Type="VI" URL="../src/Hardware/Utility/Check Servo Messages.vi"/>
 				<Item Name="Send Force Sensor Notification.vi" Type="VI" URL="../src/Hardware/Utility/Send Force Sensor Notification.vi"/>
+				<Item Name="Line ROI to Pixels.vi" Type="VI" URL="../src/Hardware/Utility/Line ROI to Pixels.vi"/>
 			</Item>
 			<Item Name="General Hardware.lvclass" Type="LVClass" URL="../src/Hardware/General Hardware.lvclass"/>
 		</Item>
@@ -524,6 +527,11 @@
 				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
+				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
+				<Item Name="IMAQ Convert Rectangle to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Rectangle to ROI"/>
+				<Item Name="Find Min Max Position.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Clamp.llb/Find Min Max Position.vi"/>
+				<Item Name="IMAQ Convert ROI to Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert ROI to Rectangle"/>
+				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
