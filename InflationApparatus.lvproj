@@ -40,6 +40,7 @@
 				<Item Name="Wait for Message.vi" Type="VI" URL="../src/GUI/Wait for Message.vi"/>
 				<Item Name="Wait for Message Array.vi" Type="VI" URL="../src/GUI/Wait for Message Array.vi"/>
 				<Item Name="Get Image Grab State.vi" Type="VI" URL="../src/GUI/Get Image Grab State.vi"/>
+				<Item Name="Ask for mm Distance.vi" Type="VI" URL="../src/GUI/Ask for mm Distance.vi"/>
 			</Item>
 			<Item Name="Main GUI Loop" Type="Folder">
 				<Item Name="Handler.ctl" Type="VI" URL="../src/GUI/Main GUI Loop/Handler.ctl"/>
