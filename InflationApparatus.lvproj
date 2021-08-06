@@ -192,6 +192,8 @@
 		<Item Name="File Interfacing" Type="Folder">
 			<Item Name="Generate File Name.vi" Type="VI" URL="../src/File Interfacing/Generate File Name.vi"/>
 			<Item Name="Inflation Results to String.vi" Type="VI" URL="../src/File Interfacing/Inflation Results to String.vi"/>
+			<Item Name="Camera Calibration to String.vi" Type="VI" URL="../src/File Interfacing/Camera Calibration to String.vi"/>
+			<Item Name="Camera String to Calibration.vi" Type="VI" URL="../src/File Interfacing/Camera String to Calibration.vi"/>
 			<Item Name="Save File Comments.vi" Type="VI" URL="../src/File Interfacing/Save File Comments.vi"/>
 			<Item Name="Calibration to String.vi" Type="VI" URL="../src/File Interfacing/Calibration to String.vi"/>
 			<Item Name="Filename Structure.ctl" Type="VI" URL="../src/File Interfacing/Filename Structure.ctl"/>
