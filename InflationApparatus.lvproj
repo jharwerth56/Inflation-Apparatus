@@ -178,6 +178,7 @@
 			<Item Name="GUI Notifier Wait for Message.vi" Type="VI" URL="../src/Messaging/GUI Notifier Wait for Message.vi"/>
 			<Item Name="Start Cam Cal.vi" Type="VI" URL="../src/Messaging/Start Cam Cal.vi"/>
 			<Item Name="End Cam Cal.vi" Type="VI" URL="../src/Messaging/End Cam Cal.vi"/>
+			<Item Name="Send Parameter Message.vi" Type="VI" URL="../src/Messaging/Send Parameter Message.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Error Handler.vi" Type="VI" URL="../src/Utility/Error Handler.vi"/>
@@ -226,7 +227,6 @@
 			<Item Name="Inflation Apparatus Operating Instructions.pdf" Type="Document" URL="../doc/Inflation Apparatus Operating Instructions.pdf"/>
 		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
-		<Item Name="Send Parameter Message.vi" Type="VI" URL="../src/Messaging/Send Parameter Message.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
