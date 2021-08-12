@@ -41,6 +41,7 @@
 				<Item Name="Wait for Message Array.vi" Type="VI" URL="../src/GUI/Wait for Message Array.vi"/>
 				<Item Name="Get Image Grab State.vi" Type="VI" URL="../src/GUI/Get Image Grab State.vi"/>
 				<Item Name="Ask for mm Distance.vi" Type="VI" URL="../src/GUI/Ask for mm Distance.vi"/>
+				<Item Name="Determine Test Graphs.vi" Type="VI" URL="../src/GUI/Determine Test Graphs.vi"/>
 			</Item>
 			<Item Name="Main GUI Loop" Type="Folder">
 				<Item Name="Handler.ctl" Type="VI" URL="../src/GUI/Main GUI Loop/Handler.ctl"/>
@@ -71,11 +72,13 @@
 				<Item Name="Setpoint Cluster.ctl" Type="VI" URL="../src/Inflation Test/Parameter Class/Setpoints/Setpoint Cluster.ctl"/>
 				<Item Name="Blood Pressure Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Blood Pressure Controls.ctl"/>
 				<Item Name="Open Loop Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Open Loop Controls.ctl"/>
+				<Item Name="Ramp Deformation Controls.ctl" Type="VI" URL="../src/Inflation Test/Controls/Ramp Deformation Controls.ctl"/>
 			</Item>
 			<Item Name="Paramter Class" Type="Folder">
 				<Item Name="Setpoints" Type="Folder">
 					<Item Name="Open-Loop Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Open-loop/Open-Loop Setpoint.lvclass"/>
 					<Item Name="Ramp Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Ramp Setpoint/Ramp Setpoint.lvclass"/>
+					<Item Name="Parabolic Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Parabolic Setpoint/Parabolic Setpoint.lvclass"/>
 				</Item>
 				<Item Name="IA Test Parameters.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/IA Test Parameters.lvclass"/>
 			</Item>
@@ -151,6 +154,7 @@
 				<Item Name="Check Servo Messages.vi" Type="VI" URL="../src/Hardware/Utility/Check Servo Messages.vi"/>
 				<Item Name="Send Force Sensor Notification.vi" Type="VI" URL="../src/Hardware/Utility/Send Force Sensor Notification.vi"/>
 				<Item Name="Line ROI to Pixels.vi" Type="VI" URL="../src/Hardware/Utility/Line ROI to Pixels.vi"/>
+				<Item Name="StandardIA.png" Type="Document" URL="../img/StandardIA.png"/>
 			</Item>
 			<Item Name="General Hardware.lvclass" Type="LVClass" URL="../src/Hardware/General Hardware.lvclass"/>
 		</Item>
@@ -285,7 +289,7 @@
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
@@ -606,7 +610,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build Execution/Save Version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3101C9-5B80-4F10-A305-7EC7D253F9A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inflation Apparatus.exe</Property>
@@ -666,28 +670,37 @@
 				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
 				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
-				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
+				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI Logos 20.0</Property>
-				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
+				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
 				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{61FCC73D-8092-457D-8905-27C0060D88E1}</Property>
 				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
+				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
 				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[4].SoftDepCount" Type="Int">9</Property>
+				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">12</Property>
 				<Property Name="DistPart[4].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
 				<Property Name="DistPartCount" Type="Int">5</Property>
 				<Property Name="INST_author" Type="Str">University of Maryland</Property>
@@ -700,7 +713,7 @@
 				<Property Name="INST_productName" Type="Str">Inflation Apparatus</Property>
 				<Property Name="INST_productVersion" Type="Str">3.1.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
+				<Property Name="InstSpecVersion" Type="Str">20008014</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Maryland</Property>
 				<Property Name="MSI_arpContact" Type="Str">Jason Harwerth</Property>
 				<Property Name="MSI_arpURL" Type="Str">umd.edu</Property>
@@ -735,7 +748,15 @@
 				<Property Name="Source[2].name" Type="Str">clampscript.vascr</Property>
 				<Property Name="Source[2].tag" Type="Ref">/My Computer/Calibration/Camera Script/clampscript.vascr</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].dest" Type="Str">{E15095A6-D81F-4211-95CC-67B7C54F13CA}</Property>
+				<Property Name="Source[3].name" Type="Str">Inflation Apparatus Operating Instructions.pdf</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/Documents/Inflation Apparatus Operating Instructions.pdf</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{E15095A6-D81F-4211-95CC-67B7C54F13CA}</Property>
+				<Property Name="Source[4].name" Type="Str">StandardIA.png</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/Hardware/Utility/StandardIA.png</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
