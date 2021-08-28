@@ -79,6 +79,7 @@
 					<Item Name="Open-Loop Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Open-loop/Open-Loop Setpoint.lvclass"/>
 					<Item Name="Ramp Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Ramp Setpoint/Ramp Setpoint.lvclass"/>
 					<Item Name="Parabolic Setpoint.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Parabolic Setpoint/Parabolic Setpoint.lvclass"/>
+					<Item Name="Sawtooth.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/Setpoints/Sawtooth/Sawtooth.lvclass"/>
 				</Item>
 				<Item Name="IA Test Parameters.lvclass" Type="LVClass" URL="../src/Inflation Test/Parameter Class/IA Test Parameters.lvclass"/>
 			</Item>
@@ -289,7 +290,7 @@
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
