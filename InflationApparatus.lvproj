@@ -611,7 +611,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build Execution/Save Version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3101C9-5B80-4F10-A305-7EC7D253F9A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inflation Apparatus.exe</Property>
@@ -712,7 +712,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{E15095A6-D81F-4211-95CC-67B7C54F13CA}</Property>
 				<Property Name="INST_installerName" Type="Str">InflationApparatusInstall.exe</Property>
 				<Property Name="INST_productName" Type="Str">Inflation Apparatus</Property>
-				<Property Name="INST_productVersion" Type="Str">3.1.10</Property>
+				<Property Name="INST_productVersion" Type="Str">3.1.11</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Maryland</Property>
