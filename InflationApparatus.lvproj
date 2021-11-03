@@ -205,6 +205,8 @@
 			<Item Name="Save File Comments.vi" Type="VI" URL="../src/File Interfacing/Save File Comments.vi"/>
 			<Item Name="Calibration to String.vi" Type="VI" URL="../src/File Interfacing/Calibration to String.vi"/>
 			<Item Name="Filename Structure.ctl" Type="VI" URL="../src/File Interfacing/Filename Structure.ctl"/>
+			<Item Name="Create 0 Array.vi" Type="VI" URL="../src/File Interfacing/Create 0 Array.vi"/>
+			<Item Name="Get Unified Force.vi" Type="VI" URL="../src/File Interfacing/Get Unified Force.vi"/>
 		</Item>
 		<Item Name="Main Loops" Type="Folder">
 			<Item Name="Camera Main Loop.vi" Type="VI" URL="../src/Hardware Loops/Camera Main Loop.vi"/>
@@ -232,8 +234,6 @@
 			<Item Name="Inflation Apparatus Operating Instructions.pdf" Type="Document" URL="../doc/Inflation Apparatus Operating Instructions.pdf"/>
 		</Item>
 		<Item Name="Inflation Apparatus.vi" Type="VI" URL="../src/Inflation Apparatus.vi"/>
-		<Item Name="Create 0 Array.vi" Type="VI" URL="../src/File Interfacing/Create 0 Array.vi"/>
-		<Item Name="Get Unified Force.vi" Type="VI" URL="../src/File Interfacing/Get Unified Force.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
@@ -292,7 +292,7 @@
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
@@ -613,7 +613,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build Execution/Save Version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BA3101C9-5B80-4F10-A305-7EC7D253F9A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Inflation Apparatus.exe</Property>
@@ -714,7 +714,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{E15095A6-D81F-4211-95CC-67B7C54F13CA}</Property>
 				<Property Name="INST_installerName" Type="Str">InflationApparatusInstall.exe</Property>
 				<Property Name="INST_productName" Type="Str">Inflation Apparatus</Property>
-				<Property Name="INST_productVersion" Type="Str">3.1.11</Property>
+				<Property Name="INST_productVersion" Type="Str">3.1.12</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Maryland</Property>
