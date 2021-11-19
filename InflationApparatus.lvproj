@@ -169,6 +169,9 @@
 			<Item Name="Utility" Type="Folder">
 				<Item Name="Choose Controller.vi" Type="VI" URL="../src/Controllers/Utility/Choose Controller.vi"/>
 			</Item>
+			<Item Name="Open-loop" Type="Folder">
+				<Item Name="Open-loop Controller.lvclass" Type="LVClass" URL="../src/Controllers/Open-loop Controller/Open-loop Controller.lvclass"/>
+			</Item>
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../src/Controllers/Controller.lvclass"/>
 		</Item>
 		<Item Name="Messaging" Type="Folder">
